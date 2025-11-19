@@ -1,0 +1,26 @@
+{
+  "name": "video-meet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:full": "node server-with-next.js",
+    "build": "next build",
+    "start": "node server-with-next.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
