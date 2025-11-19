@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: video-meet-signaling
+    env: node
+    plan: free  # または starter
+    buildCommand: npm install
+    startCommand: npm run server
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
